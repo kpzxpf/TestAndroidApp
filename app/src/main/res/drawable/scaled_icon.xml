@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <scale
+            android:drawable="@drawable/ic_pass_show"
+            android:scaleWidth="0.5"
+            android:scaleHeight="0.5" />
+    </item>
+</layer-list>

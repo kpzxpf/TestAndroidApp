@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="276dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/create_an_a"
+            android:layout_width="196dp"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/create_an_a"
+            android:textAppearance="@style/create_an_a"
+            android:translationY="-0.94sp" />
+
+        <TextView
+            android:id="@+id/complete_th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/complete_th"
+            android:textAppearance="@style/complete_th" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="320dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="54dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <FrameLayout
+            android:layout_width="294dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/lable_name"
+                android:layout_width="62dp"
+                android:layout_height="16dp"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/lablename"
+                android:textAppearance="@style/lablename" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:text="@string/text"
+                android:textAppearance="@style/text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="294dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/lable_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/phone_label"
+                android:textAppearance="@style/lablename" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:text="@string/phone_text"
+                android:textAppearance="@style/text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="294dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/lable_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/email_label"
+                android:textAppearance="@style/lablename" />
+
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:text="@string/email_text"
+                android:textAppearance="@style/text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="294dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/lable_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/pass_label"
+                android:textAppearance="@style/lablename" />
+
+            <TextView
+                android:id="@+id/text_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:text="@string/pass_text"
+                android:textAppearance="@style/text"
+                app:drawableEndCompat="@drawable/ic_pass_show" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="294dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/lable_pass_conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/pass_conf_label"
+                android:textAppearance="@style/lablename" />
+
+            <TextView
+                android:id="@+id/text_pass_conf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:text="@string/pass_text"
+                android:textAppearance="@style/text"
+                app:drawableEndCompat="@drawable/ic_pass_show" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="295dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/by_ticking_"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/by_ticking_"
+            android:textAppearance="@style/by_ticking_"
+            android:translationY="-0.97sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="312dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <Button
+            android:id="@+id/button_sing_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/signup"
+            android:text="@string/sign_up" />
+
+
+        <LinearLayout
+            android:layout_width="304dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom|start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/already_hav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:paddingStart="44dp"
+                android:text="@string/already_hav"
+                android:textAppearance="@style/already_hav" />
+
+            <TextView
+                android:id="@+id/sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:paddingStart="6dp"
+                android:text="@string/sign_in"
+                android:textAppearance="@style/sign_in" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="132dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
+
+        <TextView
+            android:id="@+id/or_sign_in_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/or_sign_in_"
+            android:textAppearance="@style/or_sign_in_" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/google"
+            android:layout_gravity="center_horizontal|bottom"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

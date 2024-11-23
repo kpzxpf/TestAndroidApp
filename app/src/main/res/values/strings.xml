@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="quick_deliv">
+        Quick Delivery At Your Doorstep
+    </string>
+    <string name="enjoy_quick">
+        Enjoy quick pick-up and delivery to your destination
+    </string>
+    <string name="skip">
+                Skip
+            </string>
+    <string name="next">
+                Next
+            </string>
+    <string name="onboarding_4_heading">
+        Flexible Payment
+    </string>
+    <string name="onboarding_4_text">
+        Different modes of payment either before and after delivery without stress
+    </string>
+    <string name="onboarding_3_heading">
+         Real-time Tracking
+    </string>
+    <string name="onboarding_3_text">
+        Track your packages/items from the comfort of your home till final destination
+    </string>
+    <string name="create_an_a">
+            Create an account
+        </string>
+    <string name="complete_th">
+            Complete the sign up process to get started
+        </string>
+    <string name="lablename">
+                Full name
+            </string>
+    <string name="text">
+                Ivanov Ivan
+            </string>
+    <string name="phone_label">
+                Phone Number
+            </string>
+    <string name="phone_text">
+               +7(999)999-99-99
+            </string>
+    <string name="email_label">
+                Email Address
+            </string>
+    <string name="email_text">
+                ***********@mail.com
+            </string>
+    <string name="pass_label">
+                Password
+            </string>
+    <string name="pass_text">
+                **********
+            </string>
+    <string name="pass_conf_label">
+                Confirm Password
+            </string>
+    <string name="by_ticking_">
+        By ticking this box, you agree to our Terms and conditions and private policy
+    </string>
+    <string name="sign_up">
+            Sign Up
+        </string>
+    <string name="already_hav">
+            Already have an account?
+        </string>
+    <string name="sign_in">
+                Sign in
+            </string>
+    <string name="or_sign_in_">
+            or sign in using
+        </string>
+    <string name="welcome_bac">
+            Welcome Back
+        </string>
+    <string name="fill_in_you">
+            Fill in your email and password to continue
+        </string>
+    <string name="remember_pa">
+                Remember password
+            </string>
+    <string name="forgot_pass_">
+            Forgot Password?
+        </string>
+    <string name="forgot_pass">
+            Forgot Password
+        </string>
+    <string name="enter_your_">
+            Enter your email address
+        </string>
+    <string name="send_otp">
+            Send OTP
+        </string>
+    <string name="remember_pass_back">
+                Remember password? Back to
+            </string>
+    <string name="otp_verific">
+            OTP Verification
+        </string>
+    <string name="enter_the_6">
+            Enter the 6 digit numbers sent to your email
+        </string>
+    <string name="if_you_didn">
+            If you did not receive code, resend after
+        </string>
+    <string name="timer">1:00</string>
+    <string name="set_new_pas">
+        Set New Password
+    </string>
+    <string name="new_passwor">
+            New Password
+        </string>
+    <string name="enter_new_p">
+            Enter new password
+        </string>
+    <string name="log_in">
+        Log in
+    </string>
+</resources>
