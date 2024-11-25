@@ -118,4 +118,26 @@
     <string name="log_in">
         Log in
     </string>
+    <string name="home">
+            Home
+        </string>
+    <string name="wallet">
+            Wallet
+        </string>
+    <string name="track">
+            Track
+        </string>
+    <string name="profile">
+            Profile
+        </string>
+    <string name="hello_ken">
+          Hello Ken
+        </string>
+    <string name="current_bal">
+          Current balance:
+        </string>
+    <string name="balance">
+          N10,712:00
+        </string>
+
 </resources>
