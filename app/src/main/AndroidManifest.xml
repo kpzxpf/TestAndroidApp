@@ -1,69 +1,38 @@
-<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-<application
-    android:allowBackup="true"
-    android:dataExtractionRules="@xml/data_extraction_rules"
-    android:fullBackupContent="@xml/backup_rules"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/Theme.Test"
-    tools:targetApi="31">
-    <activity
-        android:name=".HomeActivity"
-        android:exported="false" />
-    <activity
-        android:name=".HomeActivity"
-        android:exported="false"
-        android:label="@string/title_activity_home" />
-    <activity
-        android:name=".New_Password"
-        android:exported="false" />
-    <activity
-        android:name=".OTP_Verification"
-        android:exported="false" />
-    <activity
-        android:name=".Forgot_password"
-        android:exported="false" />
-    <activity
-        android:name=".Log_in"
-        android:exported="false" />
-    <activity
-        android:name=".SignUpActivity"
-        android:exported="false" />
-    <activity
-        android:name=".Holder"
-        android:exported="false" />
-    <activity
-        android:name=".Onboarding3"
-        android:exported="false" />
-    <activity
-        android:name=".Onboarding4"
-        android:exported="false" />
-    <activity
-        android:name=".Onboarding1"
-        android:exported="false" />
-    <activity
-        android:name=".Splash"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test"
+        tools:targetApi="31">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-</application>
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-</manifest>=======
+        <activity android:name=".HomeActivity" android:exported="false" />
+        <activity android:name=".New_Password" android:exported="false" />
+        <activity android:name=".OTP_Verification" android:exported="false" />
+        <activity android:name=".Forgot_password" android:exported="false" />
+        <activity android:name=".Log_in" android:exported="false" />
+        <activity android:name=".SignUpActivity" android:exported="false" />
+        <activity android:name=".Holder" android:exported="false" />
+        <activity android:name=".Onboarding1" android:exported="false" />
+        <activity android:name=".Onboarding3" android:exported="false" />
+        <activity android:name=".Onboarding4" android:exported="false" />
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-<application>
-    <activity
-        android:name="com.example.test.Profile"
-        android:exported="false"
-
-        />
-</application>
-</manifest>>>>>>>> Added
+        <activity android:name="com.example.test.Profile" android:exported="false" />
+    </application>
+</manifest>
