@@ -13,41 +13,51 @@
         android:layout_alignParentBottom="true"
         android:background="#f1f1f1">
 
-
-        <TextView
-            android:id="@+id/button_home"
+        <RelativeLayout
             android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|bottom"
-            android:paddingStart="8dp"
-            android:text="@string/home"
-            android:textAppearance="@style/home" />
+            android:layout_height="wrap_content"
+            android:paddingStart="22dp">
 
-        <TextView
-            android:id="@+id/wallet"
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|bottom"
-            android:paddingStart="14dp"
-            android:text="@string/wallet"
-            android:textAppearance="@style/wallet" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rectangle"
+                android:paddingStart="18dp"
+                />
 
-        <TextView
-            android:id="@+id/track"
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|bottom"
-            android:paddingStart="14dp"
-            android:text="@string/track"
-            android:textAppearance="@style/track" />
+            <ImageButton
+                android:id="@+id/button_home"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/transparent_color"
+                app:srcCompat="@drawable/home" />
+        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/profile"
+
+        <ImageButton
+            android:id="@+id/button_wallet"
             android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|bottom"
-            android:paddingStart="14dp"
-            android:text="@string/profile"
-            android:textAppearance="@style/profile" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="22dp"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/wallet" />
+
+        <ImageButton
+            android:id="@+id/button_track"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/track" />
+
+        <ImageButton
+            android:id="@+id/button_profile"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/profile" />
     </LinearLayout>
 </RelativeLayout>

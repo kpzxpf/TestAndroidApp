@@ -139,8 +139,17 @@
     <string name="balance">
           N10,712:00
         </string>
+    <string name="enable_dark">
+        Enable dark Mode
+      </string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="edit_profil">
+            Edit Profile
+          </string>
+    <string name="name_phone_">
+            Name, phone no, address, email ...
+          </string>
 
 </resources>

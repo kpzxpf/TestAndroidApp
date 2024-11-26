@@ -32,7 +32,7 @@ public class Log_in extends AppCompatActivity {
         singIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Log_in.this, Holder.class);
+                Intent intent = new Intent(Log_in.this, HomeActivity.class);
                 startActivity(intent);
                 finish();
             }
