@@ -10,7 +10,7 @@
     <FrameLayout
         android:id="@+id/top_layout"
         android:layout_width="407dp"
-        android:layout_height="104dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:clipToOutline="true"
@@ -38,5 +38,183 @@
             android:paddingBottom="8dp"
             app:srcCompat="@drawable/arrow_square_right" />
     </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="26dp">
+
+            <RelativeLayout
+                android:id="@+id/centre_layout"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    app:srcCompat="@drawable/frame_60" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView20"
+                    android:paddingStart="6dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/origin_deta"
+                    android:textAppearance="@style/origin_deta" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_below="@+id/centre_layout"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/address"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/state_count"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/state_count" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/phone_numbe"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/phone_numbe" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/others"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/others" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/centre_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:layout_below="@id/layout1"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="26dp">
+
+            <RelativeLayout
+                android:id="@+id/centre_layout1"
+                android:layout_width="166dp"
+                android:layout_height="22dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    app:srcCompat="@drawable/frame_59" />
+
+                <TextView
+                    android:id="@+id/destination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView21"
+                    android:paddingStart="6dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/destination"
+                    android:textAppearance="@style/destination" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_below="@+id/centre_layout1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/address"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/address" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/state_count"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/state_count" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/phone_numbe"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/phone_numbe" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    android:elevation="5dp"
+                    android:hint="@string/others"
+                    android:paddingStart="6dp"
+                    android:textAppearance="@style/others" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/centre_layout2"
+            android:layout_marginStart="44dp"/>
+    </RelativeLayout>
 
 </RelativeLayout>

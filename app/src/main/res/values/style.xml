@@ -155,5 +155,28 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#3A3A3A</item>
     </style>
-
+    <style name="origin_deta">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="address">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="state_count">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="phone_numbe">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="others">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="destination">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
 </resources>

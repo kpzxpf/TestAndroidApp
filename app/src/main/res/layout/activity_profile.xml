@@ -50,12 +50,12 @@
 
       <RelativeLayout
           android:id="@+id/nestedRelativeLayout"
-          android:layout_width="263dp"
-          android:layout_height="63dp"
+          android:layout_width="163dp"
+          android:layout_height="64dp"
           android:layout_alignParentRight="true"
           android:layout_marginStart="8dp"
-          android:layout_marginEnd="16dp"
-          android:layout_marginRight="23dp"
+          android:layout_marginEnd="32dp"
+          android:layout_marginRight="113dp"
           android:layout_toRightOf="@id/imageButton">
 
 
@@ -92,6 +92,15 @@
             android:textAppearance="@style/balance"
             android:translationY="-0.97sp" />
       </RelativeLayout>
+
+      <ImageButton
+          android:id="@+id/imageButton2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/ic_pass_show"
+          android:layout_alignParentRight="true"
+          android:backgroundTint="@color/transparent_color"
+          android:layout_marginTop="16dp"/>
     </RelativeLayout>
 
     <FrameLayout

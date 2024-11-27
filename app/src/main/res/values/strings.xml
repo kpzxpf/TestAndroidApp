@@ -193,8 +193,25 @@
     <string name="you_have_no">
             You have no notifications
         </string>
-    !-- strings.xml -->
     <string name="send_package">
             Send a package
         </string>
+    <string name="origin_deta">
+                    Origin Details
+                </string>
+    <string name="address">
+                    Address
+                </string>
+    <string name="state_count">
+                    State,Country
+                </string>
+    <string name="phone_numbe">
+                    Phone number
+                </string>
+    <string name="others">
+                    Others
+                </string>
+    <string name="destination">
+                    Destination Details
+                </string>
 </resources>
