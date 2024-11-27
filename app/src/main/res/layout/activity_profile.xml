@@ -13,31 +13,38 @@
       android:layout_width="match_parent"
       android:layout_height="65dp"
       android:layout_alignParentTop="true"
-      android:background="#f1f1f1"
       android:gravity="center_horizontal|bottom"
       android:text="@string/profile"
       android:textAppearance="@style/profile"
-      android:textColor="#546E7A" />
+      android:textColor="#546E7A"
+      android:layout_alignParentLeft="true"
+      android:clipToOutline="true"
+
+      android:elevation="5dp"/>
 
   <RelativeLayout
       android:id="@+id/centre_layout"
       android:layout_width="match_parent"
-      android:layout_height="586dp"
-      android:layout_below="@+id/text_view">
+      android:layout_height="match_parent"
+      android:layout_marginBottom="66dp"
+      android:layout_below="@+id/text_view"
+      >
 
     <RelativeLayout
         android:id="@+id/upper_layout"
         android:layout_width="match_parent"
         android:layout_height="91dp"
-        android:layout_marginHorizontal="22dp">
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="22dp">
 
-      <ImageButton
+      <ImageView
           android:id="@+id/imageButton"
-          android:layout_width="117dp"
-          android:layout_height="117dp"
+          android:layout_width="83dp"
+          android:layout_height="82dp"
           android:background="@drawable/circular_button_background"
           android:clipToOutline="true"
           android:contentDescription="@string/already_hav"
+          android:layout_marginTop="6dp"
           android:scaleType="center"
           app:srcCompat="@drawable/man" />
 
@@ -111,16 +118,22 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="401dp"
         android:layout_below="@+id/frame_layout"
         android:layout_marginHorizontal="26dp"
-        android:layout_marginBottom="26dp"
         android:layout_marginTop="12dp"
+        android:layout_marginBottom="2dp"
         android:orientation="vertical">
+
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -136,7 +149,7 @@
 
           <TextView
               android:id="@+id/edit_profil"
-              android:layout_width="79dp"
+              android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:gravity="top"
               android:lineSpacingExtra="-3sp"
@@ -155,101 +168,369 @@
               android:translationY="-0.97sp" />
         </FrameLayout>
 
-          <ImageView
-              android:id="@+id/imageView6"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/peper" />
+
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView7">
+
+          <TextView
+              android:id="@+id/statements_"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_alignParentEnd="true"
-              android:layout_marginTop="16dp"
-              android:layout_marginEnd="6dp"
-              app:srcCompat="@drawable/frame_106" />
+              android:gravity="top"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/statements_"
+              android:textAppearance="@style/statements_" />
+
+          <TextView
+              android:id="@+id/download_tr"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:lineSpacingExtra="2sp"
+              android:text="@string/download_tr"
+              android:textAppearance="@style/download_tr"
+              android:translationY="-0.97sp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
 
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/notification" />
+
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView9">
+
+          <TextView
+              android:id="@+id/notification"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/notificatio"
+              android:textAppearance="@style/notificatio" />
+
+          <TextView
+              android:id="@+id/mute_unmute"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:lineSpacingExtra="2sp"
+              android:text="@string/mute_unmute"
+              android:textAppearance="@style/mute_unmute"
+              android:translationY="-0.97sp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
 
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/wallet_2" />
+
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView11">
+
+          <TextView
+              android:id="@+id/card_bank_a"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/card_bank_a"
+              android:textAppearance="@style/card_bank_a" />
+
+          <TextView
+              android:id="@+id/change_card"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:lineSpacingExtra="2sp"
+              android:text="@string/change_card"
+              android:textAppearance="@style/change_card"
+              android:translationY="-0.97sp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
 
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/two_person" />
+
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView13">
+
+          <TextView
+              android:id="@+id/referrals"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/referrals"
+              android:textAppearance="@style/referrals" />
+
+          <TextView
+              android:id="@+id/check_no_of"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:lineSpacingExtra="2sp"
+              android:text="@string/check_no_of"
+              android:textAppearance="@style/check_no_of"
+              android:translationY="-0.97sp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
 
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/map" />
+
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView15">
+
+          <TextView
+              android:id="@+id/about_us"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/about_us"
+              android:textAppearance="@style/about_us" />
+
+          <TextView
+              android:id="@+id/know_more_a"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:lineSpacingExtra="2sp"
+              android:text="@string/know_more_a"
+              android:textAppearance="@style/know_more_a"
+              android:translationY="-0.97sp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
 
       <RelativeLayout
           android:layout_width="match_parent"
-          android:layout_height="44dp">
-      </RelativeLayout>
+          android:layout_height="44dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:background="#FFFFFF"
+          android:clipToOutline="true"
+          android:elevation="5dp">
 
-      <RelativeLayout
-          android:layout_width="match_parent"
-          android:layout_height="44dp">
-      </RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            app:srcCompat="@drawable/log_out" />
 
-      <RelativeLayout
-          android:layout_width="match_parent"
-          android:layout_height="44dp">
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageView17">
+
+          <TextView
+              android:id="@+id/log_out"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:lineSpacingExtra="-3sp"
+              android:text="@string/log_out"
+              android:textAppearance="@style/log_out" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:srcCompat="@drawable/frame_106" />
       </RelativeLayout>
     </LinearLayout>
 
 
   </RelativeLayout>
+
   <LinearLayout
       android:id="@+id/nav_bar"
       android:layout_width="match_parent"
-      android:layout_height="60dp"
+      android:layout_height="54dp"
       android:layout_alignParentBottom="true"
-      android:background="#f1f1f1"
-      android:layout_below="@+id/centre_layout">
+      android:background="#f1f1f1">
 
 
-      <ImageButton
-          android:id="@+id/button_home"
-          android:layout_width="100dp"
-          android:layout_height="match_parent"
-          android:backgroundTint="@color/transparent_color"
-          app:srcCompat="@drawable/home_unmain"
-          android:paddingStart="22dp"/>
+    <ImageButton
+        android:id="@+id/button_home"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/transparent_color"
+        android:paddingStart="22dp"
+        app:srcCompat="@drawable/home_unmain" />
 
 
     <ImageButton
         android:id="@+id/button_wallet"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:paddingStart="22dp"
         android:backgroundTint="@color/transparent_color"
+        android:paddingStart="22dp"
         app:srcCompat="@drawable/wallet" />
 
     <ImageButton
         android:id="@+id/button_track"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:backgroundTint="@color/transparent_color"
         app:srcCompat="@drawable/track" />
 
     <RelativeLayout
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingStart="12dp">
 
       <ImageView
           android:id="@+id/imageView4"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          app:srcCompat="@drawable/rectangle"
           android:paddingStart="8dp"
-          />
+          app:srcCompat="@drawable/rectangle" />
 
       <ImageButton
           android:id="@+id/button_profile"

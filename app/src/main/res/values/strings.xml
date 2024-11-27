@@ -151,5 +151,50 @@
     <string name="name_phone_">
             Name, phone no, address, email ...
           </string>
-
+    <string name="statements_">
+            Statements &amp; Reports
+          </string>
+    <string name="download_tr">
+            Download transaction details, orders, deliveries
+          </string>
+    <string name="notificatio">
+            Notification Settings
+          </string>
+    <string name="mute_unmute">
+            mute, unmute, set location &amp; tracking setting
+          </string>
+    <string name="card_bank_a">
+            Card &amp; Bank account settings
+          </string>
+    <string name="change_card">
+            change cards, delete card details
+          </string>
+    <string name="referrals">
+            Referrals
+          </string>
+    <string name="check_no_of">
+            check no of friends and earn
+          </string>
+    <string name="about_us">
+            About Us
+          </string>
+    <string name="know_more_a">
+            know more about us, terms and conditions
+          </string>
+    <string name="log_out">
+            Log Out
+          </string>
+    <string name="add_payment">
+            Add Payment method
+        </string>
+    <string name="notf">
+            Notification
+        </string>
+    <string name="you_have_no">
+            You have no notifications
+        </string>
+    !-- strings.xml -->
+    <string name="send_package">
+            Send a package
+        </string>
 </resources>
