@@ -179,4 +179,147 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#3A3A3A</item>
     </style>
+    <style name="add_destina">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="package_det">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="package_ite">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="weight_of_i">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
+    <style name="n50_000">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="select_deli">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="package_inf">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="mbaraugba_o">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="ademola_ala">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="other_detai">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="package_ite2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="books_ans_s">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="weight_of_i2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="kg">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="tracking_nu">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="r_7458_4567">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="charges">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="delivery_ch">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="n2_500_00">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="worth_of_it">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="n50_0002">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="instant_del">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="n300_00">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="tax_and_ser">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="n200_00">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="package_tot">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="n3000_00">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="edit_packag">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="make_paymen">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="transaction">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="your_rider_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="tracking_nu2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style><style name="tracking_number">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="track_my_it">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="go_back_to_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
 </resources>

@@ -214,4 +214,118 @@
     <string name="destination">
                     Destination Details
                 </string>
+    <string name="add_destina">
+                Add destination
+            </string>
+    <string name="package_det">
+                    Package Details
+                </string>
+    <string name="package_ite">
+                    package items
+                </string>
+    <string name="weight_of_i">
+                    Weight of item(kg)
+                </string>
+    <string name="n50_000">
+                    N50,000
+                </string>
+    <string name="select_deli">
+                Select delivery type
+            </string>
+    <string name="package_inf">
+        Package Information
+    </string>
+    <string name="mbaraugba_o">
+            Mbaraugba, Ovom Amaa Asaa, Abia state
+        </string>
+    <string name="some_id">
+            +234 56543 96854
+        </string>
+    <string name="some_id2">
+            +234 70644 80655
+        </string>
+    <string name="ademola_ala">
+            19 Ademola Alabi close, lagos
+        </string>
+    <string name="other_detai">
+            Other details
+        </string>
+    <string name="package_ite2">
+            Package Items
+        </string>
+    <string name="books_ans_s">
+        Books ans stationary, Garri Ngwa
+    </string>
+    <string name="weight_of_i2">
+        Weight of items
+    </string>
+    <string name="kg">
+        1000kg
+    </string>
+    <string name="tracking_nu">
+        Tracking Number
+    </string>
+    <string name="r_7458_4567">
+        R-7458-4567-4434-5854
+    </string>
+    <string name="charges">
+        Charges
+    </string>
+    <string name="delivery_ch">
+        Delivery Charges
+    </string>
+    <string name="n2_500_00">
+        N2,500.00
+    </string>
+    <string name="worth_of_it">
+        Worth of Items
+    </string>
+    <string name="n50_0002">
+        N50,000
+    </string>
+    <string name="instant_del">
+        Instant delivery
+    </string>
+    <string name="n300_00">
+        N300.00
+    </string>
+    <string name="tax_and_ser">
+        Tax and Service Charges
+    </string>
+    <string name="n200_00">
+        N200.00
+    </string>
+    <string name="package_tot">
+        Package total
+    </string>
+    <string name="n3000_00">
+        N3000.00
+    </string>
+    <string name="button_3_text">
+        N3000.00
+    </string>
+    <string name="edit_packag">
+            Edit package
+        </string>
+    <string name="make_paymen">
+            Make payment
+        </string>
+    <string name="transaction">
+            Transaction Successful
+        </string>
+    <string name="your_rider_">
+            Your rider is on the way to your destination
+        </string>
+    <string name="tracking_nu2">
+            Tracking Number R-7458-4567-4434-5854
+        </string>
+    <string name="tracking_num">
+            R-7458-4567-4434-5854
+        </string>
+    <string name="track_my_it">
+            Track my item
+        </string>
+    <string name="go_back_to_">
+                Go back to homepage
+            </string>
 </resources>

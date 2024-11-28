@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transaction">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/frame_animation" />
+
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="54dp"
+        android:layout_marginHorizontal="66dp">
+
+        <TextView
+            android:id="@+id/transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction"
+            android:textAppearance="@style/transaction"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/your_rider_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_rider_"
+            android:textAppearance="@style/your_rider_"
+            android:layout_below="@+id/transaction"
+            android:layout_marginStart="4dp"
+            android:lineSpacingExtra="0sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/tracking_nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/your_rider_"
+            android:layout_marginStart="4dp"
+            android:gravity="top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/tracking_nu"
+            android:textAppearance="@style/tracking_nu2" />
+
+        <TextView
+            android:id="@+id/tracking_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tracking_num"
+            android:textAppearance="@style/tracking_number"
+            android:layout_below="@+id/your_rider_"
+            android:lineSpacingExtra="0sp"
+            android:layout_toRightOf="@+id/tracking_nu"
+            android:layout_marginStart="4dp"
+            android:gravity="top"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="76dp">
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/log_in"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/log_in">
+
+            <TextView
+                android:id="@+id/track_my_it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:lineSpacingExtra="-3sp"
+                android:text="@string/track_my_it"
+                android:textAppearance="@style/track_my_it" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/log_"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/button_log"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/log_in">
+
+            <TextView
+                android:id="@+id/go_back_to_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/go_back_to_"
+                android:textAppearance="@style/go_back_to_"
+                android:lineSpacingExtra="-3sp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
