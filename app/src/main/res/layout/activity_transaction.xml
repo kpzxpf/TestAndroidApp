@@ -30,6 +30,7 @@
             android:layout_height="wrap_content"
             android:text="@string/transaction"
             android:textAppearance="@style/transaction"
+            android:visibility="gone"
             android:layout_marginStart="12dp"/>
 
         <TextView

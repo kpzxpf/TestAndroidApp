@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wallet">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android:layout_marginTop=&quot;12dp&quot;" />
+
+    <FrameLayout
+        android:id="@+id/top_layout"
+        android:layout_width="407dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/notf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet"
+            android:textAppearance="@style/wallet2"
+            android:gravity="center_horizontal|top"
+            android:layout_gravity="center_horizontal|bottom"
+            android:paddingBottom="8dp"
+            />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/upper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/top_layout">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="83dp"
+            android:layout_height="82dp"
+            android:background="@drawable/circular_button_background"
+            android:clipToOutline="true"
+            android:contentDescription="@string/already_hav"
+            android:layout_marginTop="6dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/man" />
+
+        <RelativeLayout
+            android:id="@+id/nestedRelativeLayout"
+            android:layout_width="163dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="113dp"
+            android:layout_toRightOf="@id/imageButton">
+
+
+            <TextView
+                android:id="@+id/hello_ken"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:lineSpacingExtra="11sp"
+                android:text="@string/hello_ken"
+                android:textAppearance="@style/hello_ken"
+                android:translationY="-5.62sp" />
+
+            <TextView
+                android:id="@+id/current_bal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/current_bal"
+                android:textAppearance="@style/current_bal"
+                android:translationY="-0.97sp" />
+
+            <TextView
+                android:id="@+id/n10_712_00"
+                android:layout_width="63dp"
+                android:layout_height="16dp"
+                android:layout_alignBaseline="@id/current_bal"
+                android:layout_toRightOf="@id/current_bal"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:paddingStart="4dp"
+                android:text="@string/balance"
+                android:textAppearance="@style/balance"
+                android:translationY="-0.97sp" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_pass_show"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/transparent_color"
+            android:layout_marginTop="16dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_up"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upper_layout"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/top_up">
+
+        <RelativeLayout
+            android:id="@+id/frame_102"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="16dp">
+
+            <TextView
+                android:id="@+id/top_up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="top"
+                android:lineSpacingExtra="-3sp"
+                android:text="@string/top_up"
+                android:textAppearance="@style/top_up" />
+
+
+            <RelativeLayout
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_up2"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frame_91" />
+
+                <TextView
+                    android:id="@+id/bank"
+                    android:layout_width="30dp"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/imageView22"
+                    android:layout_marginStart="11dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/bank"
+                    android:textAppearance="@style/bank"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_up2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frame_92" />
+
+                <TextView
+                    android:id="@+id/transfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView23"
+                    android:layout_marginStart="2dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/transfer"
+                    android:textAppearance="@style/transfer"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_up2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frame_93" />
+
+                <TextView
+                    android:id="@+id/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView24"
+                    android:layout_marginStart="11dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/card"
+                    android:textAppearance="@style/card"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction"
+        android:textAppearance="@style/transaction"
+        android:lineSpacingExtra="-3sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="26dp"
+        android:layout_below="@+id/top_up"
+        android:gravity="top"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/transaction"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_107"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000_0"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_202"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_10"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000_"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_108"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000_000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_fek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000_000"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_20220"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_109"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_fem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000_07"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_2022k"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_106"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_fe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000_00"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_2022"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_1"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_fen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_000"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_2022i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_16"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/n3_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/n3_000_00"
+                    android:textAppearance="@style/n3_000_00" />
+
+                <TextView
+                    android:id="@+id/delivery_feb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n3_"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/delivery_fe"
+                    android:textAppearance="@style/delivery_fe"
+                    android:translationY="-0.97sp" />
+
+                <TextView
+                    android:id="@+id/july_7_20220o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/july_7_2022"
+                    android:textAppearance="@style/july_7_2022"
+                    android:translationY="-0.97sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f1f1f1">
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/home_unmain" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="22dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rectangle"
+                android:paddingStart="16dp"
+                />
+
+            <ImageButton
+                android:id="@+id/button_wallet"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/transparent_color"
+                app:srcCompat="@drawable/frame_14" />
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/button_track"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/track" />
+
+        <ImageButton
+            android:id="@+id/button_profile"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/profile" />
+    </LinearLayout>
+
+</RelativeLayout>
