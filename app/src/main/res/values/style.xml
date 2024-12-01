@@ -453,8 +453,61 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#A7A7A7</item>
     </style>
+    <style name="we_trust_yo">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+    </style>
     <style name="done">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+    <style name="search_serv">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A7A7A7</item>
+    </style>
+    <style name="hello_ken_">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+</style>
+    <style name="special_for">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#EC8000</item>
+    </style>
+    <style name="what_would_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="customer_ca">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="our_custome">
+        <item name="android:textSize">7.45sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="send_a_pack">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="request_for">
+        <item name="android:textSize">7.45sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="fund_your_w">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="to_fund_you">
+        <item name="android:textSize">7.45sp</item>
+        <item name="android:textColor">#3A3A3A</item>
+    </style>
+    <style name="chats">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0560FA</item>
+    </style>
+    <style name="search_for_">
+        <item name="android:textSize">7.45sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
 </resources>

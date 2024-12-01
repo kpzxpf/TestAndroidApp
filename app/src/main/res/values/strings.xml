@@ -427,4 +427,44 @@
     <string name="done">
             Done
         </string>
+    <string name="search_serv">
+            Search services
+        </string>
+    <string name="hello_ken_">
+                Hello Ken!
+            </string>
+    <string name="we_trust_yo">
+                We trust you are having a great time
+            </string>
+    <string name="special_for">
+            Special for you
+        </string>
+    <string name="what_would_">
+        What would you like to do
+    </string>
+    <string name="customer_ca">
+            Customer Care
+        </string>
+    <string name="our_custome">
+            Our customer care service line is available from 8 -9pm week days and 9 - 5 weekends - tap to call us today
+        </string>
+    <string name="send_a_pack">
+            Send a package
+        </string>
+    <string name="request_for">
+            Request for a driver to pick up or deliver your package for you
+        </string>
+    <string name="fund_your_w">
+            Fund your wallet
+        </string>
+    <string name="to_fund_you">
+            To fund your wallet is as easy as ABC, make use of our fast technology and top-up your wallet today
+        </string>
+    <string name="chats">
+            Chats
+        </string>
+    <string name="search_for_">
+            Search for available rider within your area
+        </string>
+
 </resources>

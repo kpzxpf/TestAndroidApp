@@ -28,7 +28,7 @@ public class Splash extends AppCompatActivity {
         int splashScreenDelay = getResources().getInteger(R.integer.splash_screen_delay);
 
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            Intent intent = new Intent(Splash.this, Transaction.class);
+            Intent intent = new Intent(Splash.this, HomeActivity.class);
             startActivity(intent);
             finish();
         }, splashScreenDelay);
