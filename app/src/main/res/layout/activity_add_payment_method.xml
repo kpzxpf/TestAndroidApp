@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPaymentMethod">
+
+    <FrameLayout
+        android:id="@+id/top_layout"
+        android:layout_width="407dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/notf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_payment2"
+            android:textAppearance="@style/add_payment2"
+            android:gravity="center_horizontal|top"
+            android:layout_gravity="center_horizontal|bottom"
+            android:paddingBottom="8dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/transparent_color"
+            android:paddingStart="18dp"
+            android:paddingBottom="8dp"
+            app:srcCompat="@drawable/arrow_square_right" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_142"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"/>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_146"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButton"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/pay_with_wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_with_wa"
+                android:textAppearance="@style/pay_with_wa"
+                android:lineSpacingExtra="1sp"
+                android:translationY="-0.62sp"
+                android:gravity="center_horizontal|top"
+                />
+            <TextView
+                android:id="@+id/complete_th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complete_th2"
+                android:textAppearance="@style/complete_th"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-0.97sp"
+                android:gravity="center_horizontal|top"
+                android:layout_below="@+id/pay_with_wa"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_143"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/frame_142"
+        android:elevation="5dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"/>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButton2"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/credit_debi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/credit_debi"
+                android:textAppearance="@style/credit_debi"
+                android:lineSpacingExtra="1sp"
+                android:translationY="-0.62sp"
+                android:gravity="center_horizontal|top"
+                />
+
+            <TextView
+                android:id="@+id/complete_th2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complete_th3"
+                android:textAppearance="@style/complete_th"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-0.97sp"
+                android:gravity="center_horizontal|top"
+                android:layout_below="@+id/credit_debi"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/button_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/log_in"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="66dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/proceed_to_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/proceed_to_"
+            android:textAppearance="@style/proceed_to_"
+            android:lineSpacingExtra="-3sp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

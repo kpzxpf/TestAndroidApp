@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Test"
         tools:targetApi="31">
         <activity
+            android:name=".DeliverySuccessful"
+            android:exported="false" />
+        <activity
+            android:name=".SendAPackage2"
+            android:exported="false" />
+        <activity
+            android:name=".TrackingPackage"
+            android:exported="false" />
+        <activity
+            android:name=".AddPaymentMethod"
+            android:exported="false" />
+        <activity
             android:name=".Wallet"
             android:exported="false" />
         <activity

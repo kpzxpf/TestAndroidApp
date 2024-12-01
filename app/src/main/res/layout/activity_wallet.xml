@@ -236,7 +236,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/transaction"
         android:layout_marginHorizontal="24dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="20dp"
         android:fillViewport="true">
 

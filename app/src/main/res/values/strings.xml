@@ -352,11 +352,79 @@
     <string name="delivery_fe">
                     Delivery fee
                 </string>
-    <string name="july_7_2022">
+    <string name="july_7_20225">
                     July 7, 2022
                 </string>
-    <style name="july_7_2022">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">#A7A7A7</item>
-    </style>
+    <string name="add_payment2">
+            Add Payment method
+        </string>
+    <string name="pay_with_wa">
+                Pay with wallet
+            </string>
+    <string name="complete_th2">
+                complete the payment using your e wallet
+            </string>
+    <string name="credit_debi">
+                Credit / debit card
+            </string>
+    <string name="proceed_to_">
+            Proceed to pay
+        </string>
+    <string name="tracking_nu3">
+        Tracking Number
+    </string>
+    <string name="r_7458_45673">
+            R-7458-4567-4434-5854
+        </string>
+    <string name="package_sta">
+        Package Status
+    </string>
+    <string name="courier_req">
+                Courier requested
+            </string>
+    <string name="july_7_2022">
+                July 7 2022
+            </string>
+    <string name="am">
+                08:00am
+            </string>
+    <string name="package_rea">
+                Package ready for delivery
+            </string>
+    <string name="am2">
+                08:30am
+            </string>
+    <string name="package_in_">
+                Package in transit
+            </string>
+    <string name="package_del">
+                Package delivered
+            </string>
+    <string name="view_packag">
+            View Package Info
+        </string>
+    <string name="click_on_de">
+        Click on  delivered for successful delivery and rate rider or report missing item
+    </string>
+    <string name="report">
+            Report
+        </string>
+    <string name="successful">
+            Successful
+        </string>
+    <string name="delivery_su">
+            Delivery Successful
+        </string>
+    <string name="your_item_h">
+            Your Item has been delivered successfully
+        </string>
+    <string name="rate_rider">
+        Rate Rider
+    </string>
+    <string name="add_feedbac">
+            Add feedback
+        </string>
+    <string name="done">
+            Done
+        </string>
 </resources>

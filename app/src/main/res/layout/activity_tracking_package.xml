@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackingPackage">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frame_180"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="105dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tracking_nu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tracking_nu"
+        android:textAppearance="@style/tracking_nu2"
+        android:lineSpacingExtra="-3sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/imageView25"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tracking_nu">
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/frame_167" />
+
+        <TextView
+            android:id="@+id/r_7458_4567"
+            android:layout_width="172dp"
+            android:layout_height="20dp"
+            android:text="@string/r_7458_45673"
+            android:textAppearance="@style/r_7458_45673"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.62sp"
+            android:gravity="top"
+            android:layout_toRightOf="@+id/imageView26"
+            android:layout_marginStart="8dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/package_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/package_sta"
+        android:textAppearance="@style/package_sta"
+        android:lineSpacingExtra="0sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/layout3"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        android:layout_width="205dp"
+        android:layout_height="173dp"
+        android:layout_below="@+id/package_sta"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/liner666"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/line_12"
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/line_1" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp" />
+
+            <View
+                android:id="@+id/line_1"
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/line_1" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp" />
+
+            <View
+                android:id="@+id/line_6"
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/line_1" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp" />
+        </LinearLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_174"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_toRightOf="@+id/liner666">
+
+            <TextView
+                android:id="@+id/courier_req"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/courier_req"
+                android:textAppearance="@style/courier_req" />
+
+            <TextView
+                android:id="@+id/july_7_2022"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/courier_req"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/july_7_2022"
+                android:textAppearance="@style/july_7_20222"
+                android:translationY="-0.97sp" />
+
+            <TextView
+                android:id="@+id/am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/courier_req"
+                android:layout_marginStart="6dp"
+                android:layout_toRightOf="@+id/july_7_2022"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/am"
+                android:textAppearance="@style/am"
+                android:translationY="-0.97sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_175"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/frame_174"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/liner666">
+
+            <TextView
+                android:id="@+id/package_rea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/package_rea"
+                android:textAppearance="@style/package_rea" />
+
+            <TextView
+                android:id="@+id/july_7_202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_rea"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/july_7_2022"
+                android:textAppearance="@style/july_7_20222"
+                android:translationY="-0.97sp" />
+
+            <TextView
+                android:id="@+id/am2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_rea"
+                android:layout_marginStart="6dp"
+                android:layout_toRightOf="@+id/july_7_202"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/am2"
+                android:textAppearance="@style/am"
+                android:translationY="-0.97sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_176"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/frame_175"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/liner666">
+
+            <TextView
+                android:id="@+id/package_in_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/package_in_"
+                android:textAppearance="@style/package_in_" />
+
+            <TextView
+                android:id="@+id/july_7_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_in_"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/july_7_2022"
+                android:textAppearance="@style/july_7_20222"
+                android:translationY="-0.97sp" />
+
+            <TextView
+                android:id="@+id/am3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_in_"
+                android:layout_marginStart="6dp"
+                android:layout_toRightOf="@+id/july_7_20"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/am2"
+                android:textAppearance="@style/am"
+                android:translationY="-0.97sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_177"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/frame_176"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/liner666">
+
+            <TextView
+                android:id="@+id/package_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/package_del"
+                android:textAppearance="@style/package_del" />
+
+            <TextView
+                android:id="@+id/july_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_del"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/july_7_2022"
+                android:textAppearance="@style/july_7_20222"
+                android:translationY="-0.97sp" />
+
+            <TextView
+                android:id="@+id/am4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/package_del"
+                android:layout_marginStart="6dp"
+                android:layout_toRightOf="@+id/july_20"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/am2"
+                android:textAppearance="@style/am"
+                android:translationY="-0.97sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/log_in"
+        android:layout_width="342dp"
+        android:layout_height="46dp"
+        android:background="@drawable/log_in"
+        android:layout_alignTop="@+id/tool"
+        android:layout_marginTop="-60dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/view_packag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_packag"
+            android:textAppearance="@style/view_packag"
+            android:layout_centerInParent="true"
+            android:lineSpacingExtra="-3sp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f1f1f1">
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/home_unmain" />
+
+        <ImageButton
+            android:id="@+id/button_wallet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/wallet" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="22dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rectangle"
+                android:paddingStart="16dp"
+                />
+
+            <ImageButton
+            android:id="@+id/button_track"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/track_main" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/button_profile"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent_color"
+            app:srcCompat="@drawable/profile" />
+    </LinearLayout>
+</RelativeLayout>

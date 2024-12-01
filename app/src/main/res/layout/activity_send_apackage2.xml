@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Receipt">
+    tools:context=".SendAPackage2">
 
     <FrameLayout
         android:id="@+id/top_layout"
@@ -428,20 +428,37 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="24dp"
         android:layout_below="@+id/package_tot"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/button_3">
         <TextView
-            android:id="@+id/edit_packag"
+            android:id="@+id/report"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edit_packag"
-            android:textAppearance="@style/edit_packag"
+            android:text="@string/report"
+            android:textAppearance="@style/report"
             android:lineSpacingExtra="-3sp"
+            android:layout_centerInParent="true"
             android:gravity="top"
             android:layout_marginTop="13dp"
             android:layout_marginStart="30dp"
             />
+
     </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/click_on_de"
+        android:layout_width="340dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/package_tot"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/click_on_de"
+        android:textAppearance="@style/click_on_de"
+        android:translationY="-0.97sp" />
 
     <RelativeLayout
         android:id="@+id/button_2"
@@ -450,18 +467,20 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="24dp"
         android:layout_below="@+id/package_tot"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/button_2">
 
         <TextView
-            android:id="@+id/make_paymen"
+            android:id="@+id/successful"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_marginStart="30dp"
             android:layout_marginTop="13dp"
             android:gravity="top"
             android:lineSpacingExtra="-3sp"
-            android:text="@string/make_paymen"
-            android:textAppearance="@style/make_paymen" />
+            android:text="@string/successful"
+            android:textAppearance="@style/successful" />
+
     </RelativeLayout>
 </RelativeLayout>
