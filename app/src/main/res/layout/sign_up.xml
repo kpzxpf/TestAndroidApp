@@ -62,7 +62,7 @@
                 android:textAppearance="@style/lablename" />
 
             <EditText
-                android:id="@+id/text"
+                android:id="@+id/full_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -146,6 +146,7 @@
                 android:padding="12dp"
                 android:hint="@string/pass_text"
                 android:textAppearance="@style/text"
+                android:inputType="textPassword"
                 app:drawableEndCompat="@drawable/ic_pass_show" />
         </FrameLayout>
 
@@ -173,6 +174,7 @@
                 android:padding="12dp"
                 android:hint="@string/pass_text"
                 android:textAppearance="@style/text"
+                android:inputType="textPassword"
                 app:drawableEndCompat="@drawable/ic_pass_show" />
         </FrameLayout>
     </LinearLayout>

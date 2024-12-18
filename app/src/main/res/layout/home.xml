@@ -116,13 +116,14 @@
                 android:translationY="-0.97sp" />
         </RelativeLayout>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/notification7"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
+            android:backgroundTint="@color/transparent_color"
             android:layout_marginEnd="12dp" />
     </RelativeLayout>
 

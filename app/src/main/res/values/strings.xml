@@ -466,5 +466,58 @@
     <string name="search_for_">
             Search for available rider within your area
         </string>
-
+    <string name="chinoso_jam">
+            Chinoso James
+        </string>
+    <string name="some_id5">
+            +234 603 6543 7265
+        </string>
+    <string name="chinoso_jam3">
+                    Chinoso James
+                </string>
+    <string name="enter_messa">
+                Enter message
+            </string>
+    <string name="hello_pleas">
+            Hello, Please check your phone, I just booked you to deliver my stuff
+        </string>
+    <string name="thank_you_f">
+            Thank you for contacting me.
+        </string>
+    <string name="i_am_alread">
+            I am already on my way to the pick up venue.
+        </string>
+    <string name="alright_i_w">
+            Alright, I wll be waiting
+        </string>
+    <string name="john_joshua">
+                    John Joshua
+                </string>
+    <string name="thanks_for_">
+                    Thanks for your service
+                </string>
+    <string name="john_joshua2">
+                    Chinonso James
+                </string>
+    <string name="thanks_for_2">
+                    Alright, I wll be waiting
+                </string>
+    <string name="john_joshua3">
+                    Raph Ron
+                </string>
+    <string name="thanks_for_3">
+                    Thanks for your service
+                </string>
+    <string name="john_joshua4">
+                    Joy Ezekiel
+                </string>
+    <string name="thanks_for_4">
+                    Thanks for your service
+                </string>
+    <string name="credit_card">
+                **** **** 3323
+            </string>
+    <string name="credit_card2">
+                **** **** 1547
+            </string>
 </resources>

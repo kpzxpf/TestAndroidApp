@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chats">
+
+    <FrameLayout
+        android:id="@+id/top_layout"
+        android:layout_width="407dp"
+        android:layout_height="104dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/add_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chats"
+            android:textAppearance="@style/add_payment"
+            android:gravity="center_horizontal|top"
+            android:layout_gravity="center_horizontal|bottom"
+            android:paddingBottom="8dp"
+            />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/transparent_color"
+            android:paddingStart="18dp"
+            android:paddingBottom="8dp"
+            app:srcCompat="@drawable/arrow_square_right" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_43"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/frame_43">
+        <TextView
+            android:id="@+id/search_serv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_serv"
+            android:textAppearance="@style/search_serv"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_centerVertical="true"
+            android:lineSpacingExtra="2sp"
+            android:translationY="-0.97sp"
+            android:gravity="center_horizontal|top"
+            />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/search"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/frame_43"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="34dp">
+        <RelativeLayout
+            android:id="@+id/profilr1"
+            android:layout_width="342dp"
+            android:layout_height="84.2dp"
+            android:background="@drawable/profilr"
+            android:layout_marginStart="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView54"
+                    android:layout_width="70dp"
+                    android:layout_height="76dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/man"
+                    android:scaleType="centerInside"/>
+                <TextView
+                    android:id="@+id/john_joshua"
+                    android:layout_width="93dp"
+                    android:layout_height="17dp"
+                    android:text="@string/john_joshua"
+                    android:textAppearance="@style/john_joshua"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="6dp"
+                    android:lineSpacingExtra="-3sp"
+                    android:layout_toRightOf="@+id/imageView54"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/thanks_for_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/thanks_for_"
+                    android:textAppearance="@style/thanks_for_"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_below="@+id/john_joshua"
+                    android:layout_marginStart="6dp"
+                    android:layout_toRightOf="@+id/imageView54"
+                    android:layout_marginTop="10dp"
+                    android:translationY="-0.97sp"
+                    android:gravity="top"
+                    />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                app:srcCompat="@drawable/countmes" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profilr2"
+            android:layout_width="342dp"
+            android:layout_height="84.2dp"
+            android:background="@drawable/profilr"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView55"
+                    android:layout_width="70dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="6dp"
+                    app:srcCompat="@drawable/frame_83"
+                    android:scaleType="centerInside"/>
+                <TextView
+                    android:id="@+id/john_joshua2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/john_joshua2"
+                    android:textAppearance="@style/john_joshua"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="6dp"
+                    android:lineSpacingExtra="-3sp"
+                    android:layout_toRightOf="@+id/imageView55"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/thanks_for_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/thanks_for_2"
+                    android:textAppearance="@style/thanks_for_"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_marginStart="6dp"
+                    android:layout_below="@+id/john_joshua2"
+                    android:layout_toRightOf="@+id/imageView55"
+                    android:layout_marginTop="10dp"
+                    android:translationY="-0.97sp"
+                    android:gravity="top"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/profilr3"
+            android:layout_width="342dp"
+            android:layout_height="84.2dp"
+            android:background="@drawable/profilr"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView56"
+                    android:layout_width="90dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/frame_833"
+                    android:scaleType="centerInside"/>
+                <TextView
+                    android:id="@+id/john_joshua3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/john_joshua3"
+                    android:textAppearance="@style/john_joshua"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="-3sp"
+                    android:layout_toRightOf="@+id/imageView56"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/thanks_for_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/thanks_for_3"
+                    android:textAppearance="@style/thanks_for_"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_below="@+id/john_joshua3"
+                    android:layout_toRightOf="@+id/imageView56"
+                    android:layout_marginTop="10dp"
+                    android:translationY="-0.97sp"
+                    android:gravity="top"
+                    />
+
+
+
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                app:srcCompat="@drawable/countmes_5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profilr4"
+            android:layout_width="342dp"
+            android:layout_height="84.2dp"
+            android:background="@drawable/profilr"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView58"
+                    android:layout_width="90dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/frame_87"
+                    android:scaleType="centerInside"/>
+                <TextView
+                    android:id="@+id/john_joshua4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/john_joshua4"
+                    android:textAppearance="@style/john_joshua"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="-3sp"
+                    android:layout_toRightOf="@+id/imageView58"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/thanks_for_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/thanks_for_4"
+                    android:textAppearance="@style/thanks_for_"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_below="@+id/john_joshua4"
+                    android:layout_toRightOf="@+id/imageView58"
+                    android:layout_marginTop="10dp"
+                    android:translationY="-0.97sp"
+                    android:gravity="top"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profilr5"
+            android:layout_width="342dp"
+            android:layout_height="84.2dp"
+            android:background="@drawable/profilr"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView59"
+                    android:layout_width="90dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/frame_0"
+                    android:scaleType="centerInside"/>
+                <TextView
+                    android:id="@+id/john_joshua5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/john_joshua4"
+                    android:textAppearance="@style/john_joshua"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="-3sp"
+                    android:layout_toRightOf="@+id/imageView59"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/thanks_for_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:text="@string/thanks_for_4"
+                    android:textAppearance="@style/thanks_for_"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_below="@+id/john_joshua5"
+                    android:layout_toRightOf="@+id/imageView59"
+                    android:layout_marginTop="10dp"
+                    android:translationY="-0.97sp"
+                    android:gravity="top"
+                    />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                app:srcCompat="@drawable/countmes" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

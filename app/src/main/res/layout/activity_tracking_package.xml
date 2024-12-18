@@ -86,7 +86,8 @@
             <CheckBox
                 android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:clickable="false"/>
 
             <View
                 android:id="@+id/line_12"
@@ -100,7 +101,8 @@
                 android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-8dp" />
+                android:layout_marginTop="-8dp"
+                android:clickable="false"/>
 
             <View
                 android:id="@+id/line_1"
@@ -114,7 +116,8 @@
                 android:id="@+id/checkBox7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-8dp" />
+                android:layout_marginTop="-8dp"
+                android:clickable="false"/>
 
             <View
                 android:id="@+id/line_6"
@@ -128,7 +131,8 @@
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-8dp" />
+                android:layout_marginTop="-8dp"
+                android:clickable="false"/>
         </LinearLayout>
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -299,7 +303,7 @@
     </RelativeLayout>
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/log_in"
+        android:id="@+id/view_package_info"
         android:layout_width="342dp"
         android:layout_height="46dp"
         android:background="@drawable/log_in"

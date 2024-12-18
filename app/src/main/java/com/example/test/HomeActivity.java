@@ -1,10 +1,16 @@
 package com.example.test;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +20,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class HomeActivity extends AppCompatActivity {
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +35,9 @@ public class HomeActivity extends AppCompatActivity {
         ImageButton buttonWallet = findViewById(R.id.button_wallet);
         ImageButton buttonTrack = findViewById(R.id.button_track);
         ImageButton buttonProfile = findViewById(R.id.button_profile);
+        ImageButton buttonNotification = findViewById(R.id.imageView34);
+
+        RelativeLayout sendPackage = findViewById(R.id.customer_ca2);
 
         buttonProfile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,5 +48,45 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        buttonNotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, Notification.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        buttonWallet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, Wallet.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        buttonTrack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, TrackingPackage.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        sendPackage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendPackage.setBackgroundColor(Color.BLUE);
+                TextView textViewTop = findViewById(R.id.send_a_pack);
+                textViewTop.setTextColor(Color.WHITE);
+                TextView textViewBot = findViewById(R.id.request_for);
+                textViewBot.setTextColor(Color.WHITE);
+
+                Intent intent = new Intent(HomeActivity.this, SendPackage.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

@@ -24,7 +24,7 @@ public class Notification extends AppCompatActivity {
             return insets;
         });
 
-        ImageButton back = findViewById(R.id.back);
+        ImageButton back = findViewById(R.id.imageView19);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

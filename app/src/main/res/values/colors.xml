@@ -7,4 +7,6 @@
     <color name="blue_primary">#007bff</color>
     <color name="light_gray">#CFCFCF</color>
     <color name="transparent_color">#00FFFFFF</color>
+    <color name="grey_home">#F2F2F2</color>
+    <color name="blue_home">#0560FA</color>
 </resources>

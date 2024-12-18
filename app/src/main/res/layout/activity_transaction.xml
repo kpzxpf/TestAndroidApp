@@ -80,13 +80,13 @@
 
         <RelativeLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/log_in"
+            android:id="@+id/track_my_it"
             android:layout_width="match_parent"
             android:layout_height="46dp"
             android:background="@drawable/log_in">
 
             <TextView
-                android:id="@+id/track_my_it"
+                android:id="@+id/track_my_it2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -104,7 +104,7 @@
             android:layout_height="46dp"
             android:background="@drawable/button_log"
             android:layout_marginTop="8dp"
-            android:layout_below="@+id/log_in">
+            android:layout_below="@+id/track_my_it">
 
             <TextView
                 android:id="@+id/go_back_to_"

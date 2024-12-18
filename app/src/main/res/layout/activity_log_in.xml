@@ -94,8 +94,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:background="@drawable/edit_text_background"
-                android:padding="12dp"
                 android:hint="@string/pass_text"
+                android:padding="12dp"
+                android:inputType="textPassword"
                 android:textAppearance="@style/text"
                 app:drawableEndCompat="@drawable/ic_pass_show" />
         </FrameLayout>
@@ -218,8 +219,6 @@
             android:text="@string/forgot_pass_"
             android:textAppearance="@style/forgot_pass"
             android:translationY="-0.97sp" />
-
-
     </LinearLayout>
 
 
